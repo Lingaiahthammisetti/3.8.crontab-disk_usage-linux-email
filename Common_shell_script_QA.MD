@@ -1,122 +1,61 @@
-common programming questions on Shell Scripting
+## common programming questions on Shell Scripting
 
-
-
-🔹 Basics
-
+* Basics
 What is a shell? What is a shell script?
-
 How do you write and run a shell script?
-
 What is the difference between sh and bash?
-
 How do you make a script executable?
-
 e.g., chmod +x script.sh
 
-
-
-🔹 Variables and Input
-
+* Variables and Input
 How do you define a variable in a shell script?
-
 How do you read user input in a shell script?
-
 e.g., read name
-
 What's the difference between $var, ${var}, and "$var"?
 
-
-
-🔹 Conditionals and Loops
-
+* Conditionals and Loops
 How do you write an if statement in shell?
-
 How do you use case statements?
-
 What are the different types of loops in shell?
-
 for, while, until
-
 How do you compare numbers or strings in shell?
-
 -eq, -lt, ==, !=, etc.
 
-
-
-🔹 Functions
-
+* Functions
 How do you declare and call a function?
-
 Can functions return values in shell scripts?
 
-
-
-🔹 File and Directory Operations
-
+* File and Directory Operations
 How do you check if a file exists?
-
 if \[ -f filename ]
-
 How to read a file line by line?
-
 How to check if a directory exists?
-
 How to find files using find and grep?
 
-
-
-🔹 String and Array Handling
-
+* String and Array Handling
 How to get the length of a string?
-
 How to extract substrings?
-
 How to split strings or parse CSV files?
-
 How to work with arrays in bash?
 
-
-
-🔹 Scripting Concepts
-
+* Scripting Concepts
 What is exit status in shell?
-
 How does redirection work (>, >>, 2>\&1)?
-
 What are pipes (|) used for?
-
 What is the difference between " and ' in shell?
 
-
-
-🔹 Process Management
-
+* Process Management
 How do you run a command in the background?
-
 e.g., command \&
-
 How to get the process ID (PID)?
-
 What is cron and how is it used in automation?
 
-
-
-🔹 Advanced / Practical Questions
-
+* Advanced / Practical Questions
 Write a script to backup a directory.
-
 Write a script to monitor disk usage.
-
 Write a script to count the number of lines, words, and characters in a file.
-
 Write a script to find duplicate files in a directory.
-
 How do you handle errors in shell scripts?
-
-
-
-
 
 🔹 1. What is a shell? What is a shell script?
 
