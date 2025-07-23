@@ -1,13 +1,19 @@
 * What is Cron, cronjob, and crontab?
 1. Cron (The Daemon): Cron is a time-based job scheduler in Unix/Linux systems. It runs as a background service (cron or crond) and executes scheduled tasks (cron jobs) at specified times or intervals by checking configuration files called crontab.
 
-* Syntax for time based job scheduler
+Syntax for time based job scheduler:
 * * * * *
+
 │ │ │ │ │
+
 │ │ │ │ └─── Day of the week (0 - 7) (Sunday = 0 or 7)
+
 │ │ │ └───── Month (1 - 12)
+
 │ │ └─────── Day of the month (1 - 31)
+
 │ └───────── Hour (0 - 23)
+
 └─────────── Minute (0 - 59)
 
 2. Cronjob (Scheduled Task): An individual scheduled task/script/command defined in the crontab to run at set intervals. It can run scripts, clean up logs, take backups, or perform any repetitive task.
@@ -23,11 +29,12 @@ Crontab is a configuration file that contains a list of cron jobs (crontab)
 
 3. Crontab (Cron Table): Crontab is a configuration file that contains a list of cron jobs. Each user can have their own crontab. System crontabs may also exist in /etc/crontab or /etc/cron.\* directories.
 
-* Cron - Background daemon that runs scheduled tasks.
-* Cronjob - A specific task scheduled via crontab
-* Crontab - File that lists cron jobs for a user/system
+Cron - Background daemon that runs scheduled tasks.
+Cronjob - A specific task scheduled via crontab
+Crontab - File that lists cron jobs for a user/system
 
-* List of the cronjobs:
+List of the cronjobs:
+---------------------------
 hello.sh
 #!/bin/bash
 echo "This is the hello shell script!"
