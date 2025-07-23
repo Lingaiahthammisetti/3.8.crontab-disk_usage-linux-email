@@ -1,9 +1,9 @@
-🧠 Memory Types in Linux
-There are two main types of memory we monitor:
-RAM Memory (System Memory)
-Disk Memory (Hard Drive Storage)
+## Memory Types in Linux
+* There are two main types of memory we monitor:
+1. RAM Memory (System Memory)
+2. Disk Memory (Hard Drive Storage)
 
-📊 Monitor RAM Memory
+* Monitor RAM Memory
 ➤ Basic Commands:
 free           # Shows memory usage in KB
 free -m        # Shows in MB
@@ -16,7 +16,7 @@ htop           # Improved version of `top` (may need to install)
 * need to install htop on rhel
 sudo yum install htop -y
 
-💽 Check Disk Memory
+* Check Disk Memory
 ➤ View Disk Usage:
 df -h          # Disk usage in human-readable format
 df -hT         # Shows filesystem types as well
