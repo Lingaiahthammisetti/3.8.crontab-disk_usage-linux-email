@@ -109,10 +109,10 @@ ls -lh
 Better for analyzing large directories visually.
 
 Install:
-# Debian/Ubuntu
+* Debian/Ubuntu
 sudo apt install ncdu
 
-# RHEL/CentOS
+* RHEL/CentOS
 sudo yum install ncdu
 
 Use:
